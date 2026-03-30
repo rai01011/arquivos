@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAF8F4;
+  --background-beige: #F5EFE6;
+  --card: #FFFFFF;
+  --foreground: #161616;
+  --muted: #6B6B6B;
+  --gold: #C99713;
+  --gold-light: #D6A11A;
+  --gold-border: #E8D4AB;
+  --urgency-red: #D32323;
+  --cta-green: #159D48;
+  --cta-green-dark: #158F43;
+  --green-soft: #DDF6E1;
+  --footer-brown: #2A1408;
+  --cta-brown-start: #3A1F0E;
+  --cta-brown-end: #1C1008;
+}
+
+@theme inline {
+  --font-sans: "Poppins", system-ui, sans-serif;
+  --color-background: var(--background);
+  --color-background-beige: var(--background-beige);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-border: var(--gold-border);
+  --color-urgency-red: var(--urgency-red);
+  --color-cta-green: var(--cta-green);
+  --color-cta-green-dark: var(--cta-green-dark);
+  --color-green-soft: var(--green-soft);
+  --color-footer-brown: var(--footer-brown);
+  --color-cta-brown-start: var(--cta-brown-start);
+  --color-cta-brown-end: var(--cta-brown-end);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
